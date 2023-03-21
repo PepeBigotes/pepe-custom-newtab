@@ -2,29 +2,49 @@
 <html lang="es">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <link rel="icon" type="image/x-icon" href="/icon.png">
     <title>NEW TAB</title>
 </head>
 <body>
     <div w3-include-html=""></div>
     <div class="topbar">
-        <table>
-            <tr>
-                <td>
-                    <a href="">Link 1</a>
-                </td>
-                <td>
-                    <a href="">Link 2</a>
-                </td>
-                <td>
-                    <a href="">Link 3</a>
-                </td>
-            </tr>
-        </table>
+                    <div class="linkslistbutton">
+                        <div class="material-symbols-outlined">
+                            search
+                        </div>
+                    </div>
+                        <div class="linkslist">
+                            <table>
+                                <tr>
+                                    <td><a href="https://google.com">Google</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://duckduckgo.com">DuckDuckGo</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://bing.com">Bing</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://you.com">You</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://yandex.com">Yandex</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://yahoo.com">Yahoo</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://openverse.org/">Openverse</a></td>
+                                </tr>
+                            </table>
+                            </div>
     </div>
 
-    <h1>NEW TAB</h1>
+    <h1 id="timeheader"></h1>
     <p class="subtitle">What are we doin today?</p>
-
+    
+    <script src="/datetime.js">hh:mm:ss</script>
 </body>
 </html>
