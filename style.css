@@ -24,6 +24,13 @@ h1 {
     color: white;
     margin-bottom: 0px;
 }
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #e6e6e6;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 .subtitle{
     margin-top: 0px;
     font-size: 2em;
