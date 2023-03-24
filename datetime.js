@@ -25,11 +25,27 @@ function setDateTime(){
     }
     var time = hh+":"+mm+":"+ss;
 
-    var date = today.getDate()+
-        '/'+(today.getMonth()+1)+
-        '/'+today.getFullYear();
+    var YY = today.getFullYear();
+    
+    var MM = today.getMonth() + 1;
+    if (MM < 10) {
+    MM = "0" + MM;
+    }
+    if (MM == 0){
+        MM = "00";
+    }
+    
+    var DD = today.getDate();
+    if (DD < 10) {
+        DD = "0" + DD;
+    }
+    if (DD == 0){
+        DD = "00";
+    }
+    var date = DD+"/"+MM+"/"+YY;
 
     document.getElementById("timeheader").innerHTML = time;
+    document.getElementById("dateheader").innerHTML = date;
     }
 setDateTime();
 setInterval(setDateTime, 1000);
