@@ -4,7 +4,7 @@ var today = new Date();
 function setDateTime(){
     console.log("[LOG] datetime.js: setDateTime() executed");
     today = new Date();
-    
+
     var hh = today.getHours();
     if (1 <= hh && hh <= 9){
         hh = "0" + hh;
@@ -26,13 +26,12 @@ function setDateTime(){
     if (ss == 0){
         ss = "00";
     }
-    var time = hh+":"+mm+":"+ss;
-
+    
     var YY = today.getFullYear();
     
     var MM = today.getMonth() + 1;
     if (MM < 10) {
-    MM = "0" + MM;
+        MM = "0" + MM;
     }
     if (MM == 0){
         MM = "00";
@@ -45,8 +44,10 @@ function setDateTime(){
     if (DD == 0){
         DD = "00";
     }
+    
+    var time = hh+":"+mm+":"+ss;
     var date = DD+"/"+MM+"/"+YY;
-
+    
     document.getElementById("timeheader").innerHTML = time;
     document.getElementById("dateheader").innerHTML = date;
     }
