@@ -1,7 +1,10 @@
 console.log("[LOG] datetime.js: loaded");
 var today = new Date();
+
 function setDateTime(){
     console.log("[LOG] datetime.js: setDateTime() executed");
+    today = new Date();
+    
     var hh = today.getHours();
     if (1 <= hh && hh <= 9){
         hh = "0" + hh;
