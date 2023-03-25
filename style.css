@@ -39,12 +39,14 @@ h2 {
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 .subtitle{
     margin-top: 0px;
     font-size: 2em;
     text-align: center;
     color: #aaaaaa;
 }
+
 .topbar{
     background-color: rgba(35, 35, 35, 100);
     color: white;
@@ -62,6 +64,10 @@ h2 {
 .topbar a:visited {
     color: #aaaaaa;
 }
+.topbar a:hover{
+    color:#ffffff;
+    text-shadow: 0px 0px 4px #ffffff;
+}
 .linkslist {
     display: none;
     position: fixed;
@@ -69,10 +75,13 @@ h2 {
     background-color: rgba(35, 35, 35, 100);
     border-radius: 6px;
 }
-  .linkslistbutton{
+.linkslistbutton{
     padding-right: 10px;
     padding-left: 10px;
-  }
+}
+.linkslistbutton:hover{
+    text-shadow: 0px 0px 4px #ffffff;
+}
   
   .linkslistbutton:hover + .linkslist {
     display: block;
