@@ -1,9 +1,17 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden
+}
+
 body{
     background: url(/background.jpg) no-repeat;
-    background-size: 100%;
+    background-size: 100% cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-color: #5a5a5a;
     background-blend-mode: multiply;
-    
 }
 .material-symbols-outlined{
   font-variation-settings:
