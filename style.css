@@ -23,6 +23,10 @@ body{
   vertical-align: middle;
   align-self: center;
 }
+.material-symbols-outlined:hover{
+    text-shadow: 0px 0px 4px #ffffff;
+}
+
 a{
     text-decoration: none;
     text-decoration-style: none;
@@ -85,10 +89,6 @@ ul {
     background-color: rgba(35, 35, 35, 0.6);
     border-radius: 6px;
     color: #aaaaaa;
-}
-#search-engines-button:hover,
-#ai-tools-button:hover{
-    text-shadow: 0px 0px 4px #ffffff;
 }
 #search-engines-button:hover #search-engines-list,
 #ai-tools-button:hover #ai-tools-list{
