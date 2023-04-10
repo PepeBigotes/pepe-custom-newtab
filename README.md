@@ -1,6 +1,11 @@
 <h1 align="center">Chrome Custom Newtab</h1>
 <h3 align="center">🖌 A chrome extention that overwrites the default new-tab with my custom html</h3>
 
+## 👁 Here is how it looks
+
+(WIP, this is not finished and it will change drastically in the future)  
+<img src="./newtab-preview.png">
+
 ## 🔧 Installation
 
 >Needless to say that you need to use <b>Google Chrome</b> in order for this extention to work.  
