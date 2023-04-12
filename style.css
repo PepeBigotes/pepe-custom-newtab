@@ -91,7 +91,8 @@ ul {
     color: #aaaaaa;
 }
 #search-engines-button:hover #search-engines-list,
-#ai-tools-button:hover #ai-tools-list{
+#ai-tools-button:hover #ai-tools-list,
+#social-button:hover #social-list{
     display: block;
     position: absolute;
 }
