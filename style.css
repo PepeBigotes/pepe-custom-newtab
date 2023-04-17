@@ -92,7 +92,9 @@ ul {
 }
 #search-engines-button:hover #search-engines-list,
 #ai-tools-button:hover #ai-tools-list,
-#social-button:hover #social-list{
+#social-button:hover #social-list,
+#tools-button:hover #tools-list,
+#cloud-storage-button:hover #cloud-storage-list{
     display: block;
     position: absolute;
 }
