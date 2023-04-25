@@ -1,6 +1,6 @@
 {
-    "name": "Pepebigote's Custom New-Tab",
-    "description": "Overwrites the default newtab with PepeBigote's custom new-tab.html",
+    "name": "PepeBigote's Custom New-Tab",
+    "description": "🖌 A chrome extension that changes the default new-tab for a custom one",
     "version": "0.1",
     "incognito": "split",
     "chrome_url_overrides": {
