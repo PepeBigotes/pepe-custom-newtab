@@ -5,8 +5,8 @@ body, html {
 }
 
 body{
-    background: url(/background.jpg) no-repeat;
-    background: url(https://random-image-pepebigotes.vercel.app/api/swag-wallpaper) no-repeat;
+    /*Default background in case 'getbackground.js' does not overwrite it*/
+    background: url(backgrounds/green-car.jpg) no-repeat;
     background-size: 100% cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
