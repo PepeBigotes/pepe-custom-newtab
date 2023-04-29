@@ -89,6 +89,7 @@ ul {
     background-color: rgba(35, 35, 35, 0.6);
     border-radius: 6px;
     color: #aaaaaa;
+    padding-bottom: 10px;
 }
 #search-engines-button:hover #search-engines-list,
 #ai-tools-button:hover #ai-tools-list,
