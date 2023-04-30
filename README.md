@@ -3,7 +3,7 @@
 
 ## 👁 Here is how it looks:
 
-<p align="center">NOTE: this is <b>WIP</b>, so consider this as unfinished</p>
+<p align="center">NOTE: this is <b>WIP</b>, so consider it as unfinished work</p>
 <img src="./newtab-preview.png">
 
 ## 🔧 Installation
