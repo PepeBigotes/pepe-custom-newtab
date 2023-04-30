@@ -13,6 +13,8 @@ body{
     -o-background-size: cover;
     background-color: #5a5a5a;
     background-blend-mode: multiply;
+
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .material-symbols-outlined{
   font-variation-settings:
@@ -33,16 +35,18 @@ a{
     text-decoration-style: none;
 }
 h1 {
+    font-family: 'Roboto Mono', monospace;
     font-size: 6em;
     text-align: center;
     color: white;
     margin-bottom: 0px;
 }
 h2 {
-    font-size: 2em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.4em;
     text-align: center;
     color: #e6e6e6;
-    margin-bottom: 0px;
+    margin-bottom: 35px;
     margin-top: 0px;
 }
 
