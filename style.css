@@ -56,6 +56,17 @@ h2 {
     text-align: center;
     color: #aaaaaa;
 }
+.protips{
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    color: #aaaaaa;
+    background-color: rgba(35, 35, 35, 0.7);
+}
 
 .topbar{
     background-color: rgba(35, 35, 35, 0.7);
