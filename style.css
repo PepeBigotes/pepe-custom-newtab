@@ -117,7 +117,10 @@ ul {
 #ai-tools-button:hover #ai-tools-list,
 #social-button:hover #social-list,
 #tools-button:hover #tools-list,
-#cloud-storage-button:hover #cloud-storage-list{
+#cloud-storage-button:hover #cloud-storage-list,
+#codedev-button:hover #codedev-list,
+#gaming-button:hover #gaming-list
+{
     display: block;
     position: absolute;
 }
