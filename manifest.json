@@ -1,14 +1,14 @@
 {
-    "name": "PepeBigote's Custom New-Tab",
-    "description": "🖌 A chrome extension that changes the default new-tab for a custom one",
-    "version": "0.1",
-    "chrome_url_overrides": {
-      "newtab": "new-tab.html"
-    },
-    "manifest_version": 2,
+  "name": "Pepe's Custom Newtab",
+  "description": "🖌 Change your boring browser newtab for a custom one",
+  "icons": {"48": "icon.png"},
+  "version": "0.1",
+  "homepage_url": "https://github.com/PepeBigotes/pepe-custom-newtab",
+  "manifest_version": 2,
 
-    "web_accessible_resources": [
-      "backgrounds/*"
-    ]
-    
-  }
+  "chrome_url_overrides": {"newtab": "new-tab.html"},
+  "web_accessible_resources": [
+    "backgrounds/*"
+  ]
+  
+}
