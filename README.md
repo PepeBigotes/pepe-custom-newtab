@@ -14,9 +14,19 @@
 git clone https://github.com/PepeBigotes/pepe-custom-newtab
 ```
 
-### Firefox Developer
+### Select your browser and follow the steps:
 
->**DOES NOT WORK FOR STANDARD FIREFOX**
+<details><summary><h4>Chrome</h4></summary>
+
+1. Type `chrome://extensions/` into the URL bar.
+2. Make sure developer mode is on (look in the top right corner).
+3. Press the "Load unzipped" button and select the cloned repository.
+    >*If the extension fails to import or doesn't work, report the logged errors in the "Issues" tab.*
+
+</details>
+<details><summary><h4>Firefox Developer</h4></summary>
+
+>DOES NOT WORK FOR STANDARD FIREFOX
 
 1. Compress the contents of the cloned repository into a `.zip` file *(use a tool like <a href="https://www.7-zip.org/download.html">7z</a> or <a href="https://www.win-rar.com/download.html">WinRAR</a>)*. Do not include the  `.git` directory.
     >This step needs to be done every time you want to apply the changes made to the extension.
@@ -27,9 +37,10 @@ git clone https://github.com/PepeBigotes/pepe-custom-newtab
 6. Select the `.zip` file and make sure it loads properly.
     >*If the extension fails to import or doesn't work, report the logged errors in the "Issues" tab.*
 
-### Firefox
+</details>
+<details><summary><h4>Firefox</h4></summary>
 
->**LACKS PERSISTENCY: YOU NEED IMPORT THE ADD-ON EVERY NEW SESSION**
+>LACKS PERSISTENCY: YOU NEED IMPORT THE ADD-ON EVERY NEW SESSION
 
 1. Same as step 1 for Firefox Developer
 2. Type `about:debugging#/runtime/this-firefox` in the URL bar.
@@ -37,12 +48,7 @@ git clone https://github.com/PepeBigotes/pepe-custom-newtab
 4. Select the `.zip` file and make sure it loads properly.
     >*If the extension fails to import or doesn't work, report the logged errors in the "Issues" tab.*
 
-### Chrome
-
-1. Type `chrome://extensions/` into the URL bar.
-2. Make sure developer mode is on (look in the top right corner).
-3. Press the "Load unzipped" button and select the cloned repository.
-    >*If the extension fails to import or doesn't work, report the logged errors in the "Issues" tab.*
+</details>
 
 ## 🖌 Customization
 
